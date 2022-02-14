@@ -1,0 +1,293 @@
+/*FONTES*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap'); /*light:300*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap'); /*bold:700*/
+
+* {
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    color: #1c1c1c;
+    height: 100vh;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+    color: #000000;
+
+}
+
+/*NAVEGAÇÃO*/
+nav {
+    display: flex;
+    justify-content: space-between; /*espaço entre h1 e ul*/
+    margin: auto 0x;
+    align-items: center;
+    background-color: #FDFDFF;
+}
+
+nav ul li  {
+    margin: 0 10px;
+    margin-right: 45px;
+    
+    
+}
+
+nav ul li a {
+    color: #1c1c1c;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    }
+
+nav h1 {
+     margin-left: 15px;
+    }
+
+nav ul li img {
+    padding-right: 3px;
+}
+
+/*HEADER*/
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: cornsilk;
+    background-image: url("../images/samuele-errico-piccarini-FMbWFDiVRPs-co.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 35px;
+    height: 400px;
+  
+}
+
+header p {
+    font-size: 1.5em;
+    padding: 1%
+   
+}
+
+header h1 {
+    font-size: 2.7em;
+    color: #bd1826;
+   
+}
+
+
+/*ABOUT*/
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color:rgb(255, 255, 255);
+    padding: 50px;
+}
+
+.sobre p {
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+}
+
+.sobre a {
+    font-size: 1em;
+    color: #fff;
+    margin-top:10px;
+    background-color:#bd1826;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+
+
+/*SERVIÇOS CHAMADA*/
+
+.servicos-chamada {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+    background-color: rgb(233, 233, 233);
+    padding: 80px;
+    
+} 
+
+.servicos-chamada p {
+    font-size: 1em;
+}
+
+
+.servicos-chamada a {
+    font-size: 1em;
+    color: #fff;
+    margin-top:10px;
+    background-color: #bd1826;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+/*SERVIÇOS*/
+.servicos {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+
+    justify-content: center;
+    background-color: rgb(233, 233, 233);
+    height: 400px;
+    padding-bottom:50px;
+    
+}
+
+
+.servicos h5 {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 1.6em;
+    padding: 35px;
+    
+    
+}
+
+.servicos p {
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 1.4em;
+    
+}
+
+
+
+.servicos .pintura {
+   
+    background-image:url(../images/pintura.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-left: 30px;
+    
+    
+    width: 100%;
+    height:400px;
+}
+
+.servicos .reparo {
+    
+    background-image: url(../images/martelinho-de-ouro-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    
+    width: 100%;
+    height: 400px;
+}
+
+.servicos .troca {
+
+    
+    background-image: url(../images/pecas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-right: 30px;
+    
+    width: 100%;
+    height: 400px;
+}
+
+/*CONTATO CHAMADA*/
+
+.contato-chamada {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+    margin-top: 0px;
+
+}
+
+.contato-chamada p {
+    color: #FDFDFF;
+    margin: 0;
+    padding: 12px;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
+.contato-chamada h2 {
+    color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+    
+    
+}
+
+
+/*CONTATO*/
+
+.contato {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+   
+    width: 100%;
+}
+
+.contato div {
+    
+    padding: 40px;
+    width: 500px;
+  
+    background-color: rgb(250, 243, 250);
+    width: 100%;
+}
+
+.contato div h5 {
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+.contato div p a {
+    font-size: 1em;
+    font-weight: 500;
+    color: #0f0c0c;
+
+}
+
+
+/*FOOTER*/
+
+.box {
+    font-size: 0.65em;
+}
+
+.rodape {
+    padding: 30px;
+    background-color: #0f0f0f;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+}
+
+.rodape p {
+    font-size: 0.71em;
+    padding: 0;
+    margin: 0;
+}
